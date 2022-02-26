@@ -3,7 +3,6 @@ void main()
   int units=1000;
   print('The electricity bill is: ${CalculateBill(units)}');
 }
-
 double? CalculateBill(int units)
 {  
   if (units <= 200 )
