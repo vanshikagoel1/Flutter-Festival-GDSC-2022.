@@ -1,4 +1,5 @@
-void main() {
+void main() 
+{
   int i=153;
   armstrong(i);
 }
@@ -12,8 +13,7 @@ void main() {
      result += (d*d*d);
      var a= (x-d)/10;
      x=int.parse(a.toString());
-     
-    }
+  }
  
     if(result == n)
      {
